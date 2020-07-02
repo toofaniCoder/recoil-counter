@@ -16,7 +16,7 @@
   height: 70%;
   background-color: #000;
   border-radius: 20px;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #ffcb20 0%, #fa5528 100%);
   box-shadow: 0 0px 60px 10px rgba(250, 185, 118, 0.5);
 }
 
@@ -61,7 +61,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: linear-gradient(120deg, #c7ff46 0%, #40f859 100%);
   color: #fff;
   padding: 10px 60px;
   border-radius: 27px;
