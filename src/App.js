@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { RecoilRoot, atom, useRecoilState, useResetRecoilState } from "recoil";
+import { atom, useRecoilState, useResetRecoilState } from "recoil";
 
 const counterState = atom({
   key: "counterState", // unique key
@@ -11,7 +11,6 @@ function App() {
   const [counter, setCounter] = useRecoilState(counterState);
   const restCounter = useResetRecoilState(counterState);
   return (
-    <RecoilRoot>
       <div className="App">
         <div className="counter-wrapper">
           <div className="counter">
@@ -34,7 +33,6 @@ function App() {
           </button>
         </div>
       </div>
-    </RecoilRoot>
   );
 }
 
